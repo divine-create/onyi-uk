@@ -8,10 +8,10 @@ import img2 from '../together/735909159_1036535908792356_4749825635568732570_n.j
 import img3 from '../together/Screenshot 2026-08-27 183442.png';
 
 const memories: Memory[] = [
-  { id: '1', title: 'Ukana & Onyi', description: 'A beautiful moment we shared together.', imageUrl: onyiUkImage, date: 'Recent' },
-  { id: '2', title: 'A Special Memory', description: 'One of the beautiful moments we shared.', imageUrl: img1, date: 'Always' },
-  { id: '3', title: 'Cherished Times', description: 'Every moment with you is precious.', imageUrl: img2, date: 'Always' },
-  { id: '4', title: 'Captured Love', description: 'A snapshot of our journey together.', imageUrl: img3, date: 'Always' }
+  { id: '1', title: 'Endless Devotion', description: '"In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine."', imageUrl: onyiUkImage, date: 'Recent' },
+  { id: '2', title: 'Soulmates', description: '"I look at you and see the rest of my life in front of my eyes."', imageUrl: img1, date: 'Always' },
+  { id: '3', title: 'My Everything', description: '"If I know what love is, it is because of you."', imageUrl: img2, date: 'Always' },
+  { id: '4', title: 'Forever Yours', description: '"I love you not only for what you are, but for what I am when I am with you."', imageUrl: img3, date: 'Always' }
 ];
 
 const MemoryGallery: React.FC = () => {
