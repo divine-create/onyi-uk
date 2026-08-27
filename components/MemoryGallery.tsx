@@ -9,6 +9,7 @@ import img3 from '../together/Screenshot 2026-08-27 183442.png';
 import img4 from '../together/485981732_671262061986411_6746469446143006103_n.jpg';
 import img5 from '../together/583330869_854366783675937_8831016272724064080_n.jpg';
 import img6 from '../together/669598104_967479532364661_2575627374349437755_n.jpg';
+import img7 from '../together/485143481_670927442019873_9065528681345026858_n.jpg';
 
 const memories: Memory[] = [
   { id: '1', title: 'Endless Devotion', description: '"In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine."', imageUrl: onyiUkImage, date: 'Recent' },
@@ -17,7 +18,8 @@ const memories: Memory[] = [
   { id: '4', title: 'Forever Yours', description: '"I love you not only for what you are, but for what I am when I am with you."', imageUrl: img3, date: 'Always' },
   { id: '5', title: 'True Love', description: '"You are my today and all of my tomorrows."', imageUrl: img4, date: 'Always' },
   { id: '6', title: 'My Sunshine', description: '"To the world you may be one person, but to one person you are the world."', imageUrl: img5, date: 'Always' },
-  { id: '7', title: 'Infinite Affection', description: '"I swear I couldn\'t love you more than I do right now, and yet I know I will tomorrow."', imageUrl: img6, date: 'Always' }
+  { id: '7', title: 'Infinite Affection', description: '"I swear I couldn\'t love you more than I do right now, and yet I know I will tomorrow."', imageUrl: img6, date: 'Always' },
+  { id: '8', title: 'Unconditional', description: '"There is no remedy for love but to love more."', imageUrl: img7, date: 'Always' }
 ];
 
 const MemoryGallery: React.FC = () => {
